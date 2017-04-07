@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="pgj.css">
+    <link href='//fonts.googleapis.com/css?family=Meie Script' rel='stylesheet'>
+    <script src="myscripts.js"></script>
+    <script type="text/javascript" src="myscripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font: 400 15px/1.8 "Lato", sans-serif;
+            color: #777;
+        }
+
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+            position: relative;
+            opacity: 0.65;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bgimg-1 {
+            background-image: url("http://images.boomsbeat.com/data/images/full/1046/23-jpg.jpg");
+            min-height: 100%;
+        }
+
+        .bgimg-2 {
+            background-image: url("https://w-dog.net/wallpapers/11/3/505440372786177/road-mountain-sky-clouds.jpg");
+            min-height: 400px;
+        }
+
+        .bgimg-3 {
+            background-image: url("http://images.boomsbeat.com/data/images/full/1046/23-jpg.jpg");
+            min-height: 400px;
+        }
+
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+        }
+
+        .caption span.border {
+            background-color: #111;
+            color: #fff;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 10px;
+        }
+
+        h3 {
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            font: 20px "Lato", sans-serif;
+            color: #111;
+        }
+        /* Turn off parallax scrolling for tablets and phones */
+
+        @media only screen and (max-device-width: 1024px) {
+            .bgimg-1,
+            .bgimg-2,
+            .bgimg-3 {
+                background-attachment: scroll;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+{% include 'nav.html'%}
+
+
+    <!-- Container element-->
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="border">PETER GRADSON JAMES</span>
+        </div>
+    </div>
+
+
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:36px 80px;text-align: justify;">
+        <center>
+            <h1>About Me</h1>
+        </center>
+        <p>Two years ago, when I began classes at Coventry University, I knew what I wanted to do and what my goals were, but I had no idea where life would take me. With two years of Business and Computing classes now under my belt, I am excited and eager
+            to utilize my skills, passion and knowledge in a professional environment</p>
+
+        <div class="col-sm-6">
+            <a href="short_story.html" class="btn btn-info" role="button">SHORT STORY</a>
+        </div>
+        <div class="col-sm-6">
+            <a href="https://docs.google.com/document/d/1qkmohqYaHZy7i_LlSlNvYnRDhYM7THw5cXNQaya1L04/edit" class="btn btn-info" role="button">RESUME</a>
+        </div>
+    </div>
+
+
+    <div class="bgimg-2">
+        <div class="caption">
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Who I am;</h3>
+                <p>A second-year Business Information Technology BSc (Hons) student, with technological adaptability, and the initiative to learn and question assumptions.</p>
+                <p>Also, undertaking Global Leadership Programme, which helps in increasing individual confidence in public speaking and communicating with different audiences.</p>
+            </div>
+
+            <div class="col-sm-4">
+                <h3>What I am;</h3>
+                <p> A well-spoken,organised professional, who is approachable, with a friendly personality and works well with others.</p>
+
+            </div>
+            <div class="col-sm-4">
+                <h3>Looking for;</h3>
+                <p>Currently seeking Internship or placement opportunities within the IT sector to utilise technical skills already gained such as IT infrastructure and operating systems.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!--div style ="position: relative;"></div-->
+    <div class="bgimg-3">
+        <div class="caption">
+            <span class="border"><a href="contact_form.html">CONTACT ME HERE</a></span>
+        </div>
+
+    </div>
+
+   {% include 'footer.html'%}
+</body>
+
+</html>

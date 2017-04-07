@@ -1,0 +1,549 @@
+html {
+    display: block;
+    height: 600px;
+    width: 1145 px;
+}
+
+body {
+    height: 100%;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+background-image {
+    margin-top: 50px;
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        display: block;
+        height: 400px;
+        min-width: 100%;
+        width: 100%;
+        max-width: 100%;
+        line-height: 1;
+    }
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.bgimg-1 {
+    url(http://images.boomsbeat.com/data/images/full/1046/23-jpg.jpg);
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    url(https://w-dog.net/wallpapers/11/3/505440372786177/road-mountain-sky-clouds.jpg);
+    min-height: 400px;
+}
+
+<!--(img-3 {
+    url(http://images.boomsbeat.com/data/images/full/1046/23-jpg.jpg);
+    min-height: 400px;
+    ) -->
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #555;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+div {
+    border-radius: 5px;
+    height: 300px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        margin:0 auto;
+    }
+}
+
+
+#header {
+    z-ind ex: 1;
+    position: relative;
+    width: 97.5%;
+    margin-top: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#name {
+    float: center;
+    margin-left: 5px;
+    padding-top: 5px;
+    font-size: 22px;
+    font-family: 'Petit Formal Script';
+    color: #800000;
+}
+
+#email {
+    float: center;
+    margin-right: 5px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+#linkedin {
+    float: center;
+    margin-right: 5px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+h4 {
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-family: Verdana, sans-serif;
+    color: #800000;
+}
+
+h1 {
+    float: center;
+}
+
+h3 {
+    color: white;
+}
+
+h3 .right p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -10px;
+    font-family: Garamond, serif;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.left {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    width: 15%;
+    height: 1000px;
+    background-color: #B9D7D9;
+    margin-bottom: 10px;
+}
+
+.right {
+    position: relative;
+    float: right;
+    margin-top: 50px;
+    width: 85%;
+    height: 1000px;
+    margin-bottom: 10px;
+    padding-right: 600px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+li a {
+    display: ;
+    color: aqua;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+
+/* Change the link color on hover */
+
+li a:hover {
+    background-color: aqua;
+    color: brown;
+}
+
+
+/* Centre the page */
+
+
+/* Centre the form within the page */
+
+form {
+    margin: 0 auto;
+    width: 459px;
+}
+
+
+/* Style the text boxes */
+
+input,
+textarea {
+    width: 439px;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #3a3a3a;
+}
+
+textarea {
+    height: 213px;
+    background: url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+input,
+textarea {
+    width: 439px;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #3a3a3a;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.html,
+body {
+    height: 100%;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.site-footer,
+.page-wrap:after {
+    /* .push must be the same height as footer */
+    height: 142px;
+}
+
+.site-footer {
+    background: orange;
+}
+
+.contents {
+    margin-right: 150px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: ;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: aquamarine;
+}
+
+li.dropdown {
+    position: relative;
+    display: inline;
+}
+
+.dropdown-content {
+    display: block;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: aquamarine;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+<--bouncingarrows-->@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+.fa {
+    width: 60px;
+    display: block;
+    text-align: center;
+    color: #990000;
+    font: normal 45px 'FontAwesome';
+    line-height: 60px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa-angle-double-down:before {
+    content: "\f103";
+}
+
+.bounce {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: -30px;
+    border: 2px solid #990000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+    }
+}
+
+@-moz-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+    }
+}
+
+@-o-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -o-transform: translateY(0);
+    }
+    40% {
+        -o-transform: translateY(-30px);
+    }
+    60% {
+        -o-transform: translateY(-15px);
+    }
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 70%;
+    margin: auto;
+}
+
+#wrapper_bu {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd
+}
+
+.txt_Center {
+    margin: 50% 0% 0% 20%
+}
+
+.txt_h1 {
+    font-size: 2em
+}
+
+.holder_bu {
+    cursor: pointer
+}
+
+.holder_bu_awayL1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 10%;
+    height: 40%;
+    background-color: rgba(0, 0, 50, 0.7);
+    -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+    -moz-transition: width 1s, height 1s, top 1s, left 1s;
+    -o-transition: width 1s, height 1s, top 1s, left 1s;
+    -ms-transition: width 1s, height 1s, top 1s, left 1s;
+    transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_awayL2 {
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    width: 10%;
+    height: 30%;
+    background-color: rgba(0, 0, 50, 0.5);
+    -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+    -moz-transition: width 1s, height 1s, top 1s, left 1s;
+    -o-transition: width 1s, height 1s, top 1s, left 1s;
+    -ms-transition: width 1s, height 1s, top 1s, left 1s;
+    transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_center {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width: 60%;
+    height: 90%;
+    background-color: #37c;
+    -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+    -moz-transition: width 1s, height 1s, top 1s, left 1s;
+    -o-transition: width 1s, height 1s, top 1s, left 1s;
+    -ms-transition: width 1s, height 1s, top 1s, left 1s;
+    transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_awayR1 {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 10%;
+    height: 40%;
+    background-color: rgba(0, 0, 50, 0.7);
+    -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+    -moz-transition: width 1s, height 1s, top 1s, left 1s;
+    -o-transition: width 1s, height 1s, top 1s, left 1s;
+    -ms-transition: width 1s, height 1s, top 1s, left 1s;
+    transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_awayR2 {
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    width: 10%;
+    height: 30%;
+    background-color: rgba(0, 0, 50, 0.5);
+    -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+    -moz-transition: width 1s, height 1s, top 1s, left 1s;
+    -o-transition: width 1s, height 1s, top 1s, left 1s;
+    -ms-transition: width 1s, height 1s, top 1s, left 1s;
+    transition: width 1s, height 1s, top 1s, left 1s
+}
+
+<-- trials -->@media (max-width: 767px) and (min-width: 0) .frase strong:before {
+    margin-bottom: 20px;
+}
+
+.frase strong:before {
+    content: ‘ ‘;
+    display: block;
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin: 10px auto 60px;
+}
